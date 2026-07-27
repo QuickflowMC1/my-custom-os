@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Wine Windows Program Loader
+Comment=Run Windows applications smoothly
+Exec=wine %f
+MimeType=application/x-msdos-program;application/x-ms-dos-executable;application/x-wine-extension-exe;
+Terminal=false
+Categories=System;
+NoDisplay=false

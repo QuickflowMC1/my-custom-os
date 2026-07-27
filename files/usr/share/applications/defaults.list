@@ -1,0 +1,8 @@
+application/x-msdos-program=wine-exe.desktop
+application/x-ms-dos-executable=wine-exe.desktop
+application/x-wine-extension-exe=wine-exe.desktop
+text/html=io.github.zen_browser.zen.desktop
+x-scheme-handler/http=io.github.zen_browser.zen.desktop
+x-scheme-handler/https=io.github.zen_browser.zen.desktop
+x-scheme-handler/about=io.github.zen_browser.zen.desktop
+x-scheme-handler/unknown=io.github.zen_browser.zen.desktop

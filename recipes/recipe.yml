@@ -1,0 +1,31 @@
+from: fedora-silverblue:44
+name: my-windows-friendly-os
+description: A custom Fedora system packing Wine, Boxes, and Zen Browser by default.
+
+modules:
+  - type: flatpak-repo
+    switch: true
+    repos:
+      flathub: true
+
+  - type: files
+
+  - type: rpm-ostree
+    remove:
+      - firefox
+      - firefox-langpacks
+    install:
+      - wine
+      - wine-core
+      - gnome-boxes
+      - gnome-software
+      - gnome-terminal
+      - nautilus
+      - gnome-calculator
+      - gnome-text-editor
+      - gnome-system-monitor
+
+  - type: flatpaks
+    install:
+      - com.usebottles.bottles
+      - io.github.zen_browser.zen
